@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow:  hidden;
+}
+
+
+
+.slideshow-container div {
+
+    height: 100vh;
+    width: 100vw;
+    background-color: #B2A59B;
+    color: #FAEED1;
+    font-size: 72px;
+    font-family: 'Lexend Zetta', sans-serif;
+
+}
+
+h1 {
+
+    font-size: 15vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+}
+
+a{
+
+    text-decoration: none;
+}
