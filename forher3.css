@@ -11,6 +11,7 @@
 
 body {
     scroll-snap-type: y mandatory;
+    background-color: #B2A59B;
 }
 
 
@@ -22,22 +23,98 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("pics/pic1_you.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
 
 
 }
 
+.You-opening{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.arrow{
+
+    font-size: 2rem;
+    position: absolute;;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex;
+    color: pink;
+    top: 90%
+}
+
+
+.You-opening img {
+
+    overflow: hidden;
+    position: absolute;
+    height: 120vh;
+    width: 100vw;
+    object-fit: cover;
+    z-index: -1;
+    animation: fadein;
+    animation-duration: 5s;
+    opacity: 1;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
 .YOU>p {
 
-    font-size: 50vh;
+    font-size: 20rem;
     color: pink;
     font-family: 'Lexend Zetta', sans-serif;
+    animation:
+        typing 2s ease-in,
+        blink-caret .75s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
 
 
+}
+
+
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange;
+        border-radius: 0;
+    }
 }
 
 section.main-section {
@@ -50,7 +127,7 @@ section.main-section {
     background-repeat: no-repeat;
     margin-top: -5%;
     margin-inline: 0;
-    
+
 
 }
 
@@ -108,7 +185,7 @@ section.main-section {
     font-size: 2.5vh;
     font-family: 'Quicksand', sans-serif;
     text-align: justify;
-    
+
 
 }
 
@@ -123,4 +200,25 @@ section.main-section {
 
 
 
+/* .animation-r {
 
+    width: 100vw;
+    height: 200dvh;
+    position: absolute;
+    background-color: #B2A59B;
+    animation: fadeout;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    opacity: 0;
+}
+
+@keyframes fadeout {
+
+    0% {
+        opacity: 1
+    };
+
+    100% {
+        opacity: 0
+    };
+} */
