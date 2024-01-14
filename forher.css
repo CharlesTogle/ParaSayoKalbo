@@ -13,6 +13,7 @@ body {
 html{
 
     scroll-snap-type: y mandatory;
+
 }
     .intro-sec>section {
 
@@ -22,23 +23,29 @@ html{
         flex-direction: column;
         align-items: center;
         text-align: center;
-        justify-content:space-between ;
+        justify-content:space-around;
     }
     
     .intro-sec>section h1 {
     
-        font-size: 128px;
+        font-size: 7vw;
+        margin-inline: 3vw;
         color: #F08989;
         font-family: 'Lexend Zetta', sans-serif;
     
     }
+
+    .intro-sec>.sec4 h1{
+
+        font-size: 5vw;
+        letter-spacing: 1px;
+    }
     
     .intro-sec>section img {
     
-        width: 40px;
-        height: 40px;
-        padding-bottom: 30px;
-             
+        width: 5vh;
+        height: 5vh;
+         
     }
     
   
@@ -57,7 +64,7 @@ html{
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: aqua;
+        background-color: white;
         text-decoration: none;
         font-family: 'Lexend Zetta', sans-serif;
         border-radius: 10px;
@@ -65,5 +72,63 @@ html{
         margin-bottom: 20vh;
         
     }
-    
 
+    @media only screen and (max-width: 900px) {
+
+
+        .intro-sec>section {
+
+            height: 100svh; 
+            width: 100svw;
+            scroll-snap-align: start;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: flex-start;
+            
+
+    
+        }
+        
+        .intro-sec>section h1 {
+        
+            font-size: 10dvh;
+            color: #F08989;
+            font-family: 'Lexend Zetta', sans-serif;
+            padding: 5dvh 0 15dvh 0;
+
+        }
+    
+        .intro-sec>.sec4 h1{
+    
+            font-size: 5dvh;
+            padding: 10dvh 0 20dvh 0;
+
+        }
+
+        .intro-sec>.sec3 h1{
+    
+            font-size: 7dvh;
+            letter-spacing: 1px;
+        }
+
+
+        .sec4 > a{
+
+            height: 5vh;
+            width: 20vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            text-decoration: none;
+            font-family: 'Lexend Zetta', sans-serif;
+            border-radius: 10px;
+            color: rgb(0, 0, 0);
+            margin-bottom: 20vh;
+            
+        }
+
+    }
+    

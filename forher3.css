@@ -17,15 +17,13 @@ body {
 
 
 .YOU {
-
+    overflow: hidden;
     width: 100vw;
     height: 115vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 
 
 }
@@ -34,6 +32,7 @@ body {
 
     display: flex;
     flex-direction: column;
+    width: 90vw
 
 }
 
@@ -119,7 +118,6 @@ body {
 
 section.main-section {
 
-    scroll-snap-align: start;
     width: 100vw;
     display: flex;
     background-image: url("elements/background.png");
