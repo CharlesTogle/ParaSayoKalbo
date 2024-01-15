@@ -19,7 +19,7 @@ body {
 .YOU {
     overflow: hidden;
     width: 100vw;
-    height: 115vh;
+    height: 120vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,13 +32,13 @@ body {
 
     display: flex;
     flex-direction: column;
-    width: 90vw
+    width: 90vw;
 
 }
 
 .arrow{
 
-    font-size: 2rem;
+    font-size: 6svh;
     position: absolute;;
     width: 100%;
     display: flex;
@@ -94,7 +94,7 @@ body {
 
 @keyframes typing {
     from {
-        width: 0
+        width: 0%
     }
 
     to {
@@ -251,17 +251,17 @@ section.main-section {
     
     .YOU>p {
     
-        font-size: 25dvw;
+        font-size: 27dvw;
         color: pink;
         font-family: 'Lexend Zetta', sans-serif;
         animation:
-            typing 2s ease-in,
-            blink-caret .75s linear;
+            fadein 1s ease-in,
+            typing 2s ease-in;
         display: flex;
         justify-content: center;
         align-items: center;
         /* border-radius: 50%; */
-        padding: 0;
+        padding: 1vw;
         margin-top: 25vh;
     }
 
@@ -319,12 +319,13 @@ section.main-section {
 
 .content p {
 
-    width: 80vw;
+    width: 95vw;
+    padding: 10vw;
     color: white;
-    font-size: 2.5svh;
+    font-size: 2svh;
     font-family: 'Quicksand', sans-serif;
     text-align: justify;
-    margin-block: 3vh;
+    
    
 
 
