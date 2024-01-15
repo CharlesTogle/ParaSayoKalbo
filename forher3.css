@@ -329,7 +329,7 @@ section.main-section {
     width: 95vw;
     padding: 10vw;
     color: white;
-    font-size: 2svh;
+    font-size: 1.6svh;
     font-family: 'Quicksand', sans-serif;
     text-align: justify;
     
@@ -337,6 +337,8 @@ section.main-section {
 
 
 }
+
+
 
 .video{
 
@@ -348,7 +350,7 @@ justify-content: center;
 .video>video {
 
     
-    width: 50vw;
+    width: 70vw;
     height: 45vh;
     object-fit: cover;
     border-radius: 3vw;
