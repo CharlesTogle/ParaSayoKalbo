@@ -23,9 +23,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 30vh;
 
 
 
+}
+
+a{
+
+    text-decoration: underline;
+    color: white
 }
 
 .You-opening{
@@ -177,7 +184,7 @@ section.main-section {
 .video{
 
     position: absolute;
-    top: 140%;
+    top: 175%;
     margin-inline: 1vw;
 
 }
