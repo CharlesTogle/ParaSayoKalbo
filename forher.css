@@ -24,6 +24,7 @@ html{
         align-items: center;
         text-align: center;
         justify-content:space-around;
+        animation-duration: 2s;
     }
     
     .intro-sec>section h1 {
