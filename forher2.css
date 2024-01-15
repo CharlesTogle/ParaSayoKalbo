@@ -40,35 +40,44 @@ h1 {
 
 }
 
-.mySlides12 h1,
+.mySlides1 h1,
+.mySlides2 h1,
+.mySlides3 h1,
+.mySlides4 h1,
+.mySlides5 h1,
+.mySlides6 h1,
+.mySlides7 h1,
+.mySlides8 h1,
+.mySlides9 h1,
+.mySlides10 h1,
+.mySlides11 h1,
+.mySlides12 h1
+{
+    font-size: 6vw;
+}
+
+.mySlides13 h1,
 .mySlides14 h1,
 .mySlides15 h1,
+.mySlides16 h1,
 .mySlides17 h1,
 .mySlides18 h1,
 .mySlides19 h1,
-.mySlides20 h1,
-.mySlides22 h1 {
-
+.mySlides20 h1
+{
     font-size: 5vw;
 }
-
-.mySlides13 h1{
-
-    font-size: 4vw;
-}
-
-.mySlides16 h1 {
-
-    font-size: 4vw;
-}
-
 .mySlides21 h1{
 
-    font-size: 8vw;
-    text-wrap: nowrap; 
-    justify-content: flex-start; 
-    padding-left: 4rem; 
+font-size: 8vw;
+text-wrap: nowrap;
+justify-content: flex-start; 
+padding-left: 8vw; 
 }
+.mySlides22 h1{
+    font-size: 7vw;
+}
+
 
 a {
 
@@ -121,52 +130,35 @@ a {
     .mySlides9 h1,
     .mySlides10 h1,
     .mySlides11 h1,
-    .mySlides12 h1{
+    .mySlides12 h1
+   {
         font-size: 9vw;
     }
 
-    .mySlides8 h1,
-    .mySlides12 h1,
+    .mySlides13 h1,
     .mySlides14 h1,
     .mySlides15 h1,
+    .mySlides16 h1,
     .mySlides17 h1,
     .mySlides18 h1,
     .mySlides19 h1,
-    .mySlides20 h1,
-    .mySlides22 h1{
-        font-size: 9vw;
+    .mySlides20 h1
+    {
+        font-size: 6vw;
     }
-
+    .mySlides21 h1{
+    
+    font-size: 8vw;
+    text-wrap: nowrap;
+    justify-content: flex-start; 
+    padding-left: 4rem; 
+}
     .mySlides22 h1{
         font-size: 7vw;
     }
 
-    .mySlides4 h1{
-
-        font-size: 10vw;
-        
-    }
-
-    .mySlides10 h1,
-    .mySlides13 h1,
-    .mySlides11 h1{
-        font-size: 12vw;
-    }
-
-
     
-    .mySlides16 h1, .mySlides13 h1 {
-    
-        font-size: 8vw;
-    }
-    
-    .mySlides21 h1{
-    
-        font-size: 8vw;
-        text-wrap: nowrap;
-        justify-content: flex-start; 
-        padding-left: 4rem; 
-    }
+
     
     a {
     
