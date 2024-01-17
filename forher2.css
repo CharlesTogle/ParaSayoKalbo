@@ -88,23 +88,35 @@ a {
 
 @media only screen and (max-width: 980px) {
 
+    *{
+
+        height: 100dvh;
+        overflow: hidden;
+    }
+    
+    
     html{
 
-        height: 100vh;
-        overflow: hidden;
+        height: 100svh;
+        
     }
     
     
     
     .slideshow-container div {
     
-        height: 100vh;
-        width: 100vw;
+        height: 100svh;
+        width: 100svw;
         background-color: #B2A59B;
         color: #FAEED1;
-        font-size: 72px;
         font-family: 'Lexend Zetta', sans-serif;
-    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
+        
+
     }
     
     
@@ -113,10 +125,7 @@ a {
     
         font-size: 13.5vw;
         height: 100dvh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+        overflow: hidden;        
     
     }
     
@@ -134,6 +143,7 @@ a {
     .mySlides12 h1
    {
         font-size: 9vw;
+        
     }
 
     .mySlides13 h1,
@@ -153,6 +163,7 @@ a {
     text-wrap: nowrap;
     justify-content: flex-start; 
     padding-left: 4rem; 
+
 }
     .mySlides22 h1{
         font-size: 7vw;
